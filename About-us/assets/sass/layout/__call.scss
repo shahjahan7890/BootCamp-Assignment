@@ -1,0 +1,29 @@
+.call-to-action{
+    width: 100%;
+    background-color: $primary-color;
+    padding: 50px 0;
+    .content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        .item{
+            width: 22%;
+            text-align: center;
+            i{
+                color: #fff;
+                font-size: 25px;
+            }
+            h2{
+                font-size: 30px;
+                color: #fff;
+            }
+            p{
+                color: #fff;
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+}

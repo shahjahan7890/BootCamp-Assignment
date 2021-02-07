@@ -1,0 +1,53 @@
+.team{
+    width: 100%;
+    padding: 100px 0;
+    .content{
+        @include clearfix;
+        .img{
+            width: 49%;
+            float: left;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+            .member{
+                width: 50%;
+                img{
+                    width: 215px;
+                }
+                h3{
+                    color: $black;
+                    margin-top: 10px;
+                }
+                p{
+                    color: $black;
+                }
+            }
+        }
+        .text{
+            width: 49%;
+            float: left;
+            h2{
+                color: $black;
+                font-size: 30px;
+                font-weight: 300;
+                padding: 10px 0;
+                strong{
+                    font-weight: 600;
+                }
+            }
+            h3{
+                color: $black;
+                font-weight: 300;
+                font-size: 20px;
+            }
+            p{
+                font-weight: 300;
+                color: $black;
+                padding: 20px 0;
+                font-size: 14px;
+            }
+        }
+    }
+}

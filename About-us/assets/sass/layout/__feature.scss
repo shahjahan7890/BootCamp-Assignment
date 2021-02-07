@@ -1,0 +1,24 @@
+.features{
+    width: 100%;
+    padding: 20px 0 50px;
+    .content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        .item{
+            width: 31%;
+            margin-right: 10px;
+            h2{
+                color: $black;
+                font-size: 20px;
+            }
+            p{
+                color: $black-l;
+                font-size: 13px;
+                padding: 20px 0;
+            }
+        }
+    }
+}
